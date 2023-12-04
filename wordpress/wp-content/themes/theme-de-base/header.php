@@ -27,8 +27,6 @@
 	// Tous les .css et .js sont chargés dans le fichier functions.php
 ?>
 	
-
-
 <?php wp_head(); 
 /* Cette fonction permet à WordPress et aux extensions d'instancier des fichier CSS et js dans le <head>
 	 Supprimer cette fonction briserait vos extensions et diverses fonctionnalités WordPress. 
