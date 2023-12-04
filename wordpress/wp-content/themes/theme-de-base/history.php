@@ -1,6 +1,7 @@
 <?php 
 /**
  * 	Template Name: histoire
+ * Template Post Type: histoire
  * 	Identique à page, mais avec une barre latérale
  */
 
