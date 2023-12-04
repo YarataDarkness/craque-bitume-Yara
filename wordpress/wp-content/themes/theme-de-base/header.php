@@ -50,11 +50,54 @@
 	<h1>
 		<a href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?></a>
 	</h1>
+	<div class="ignorez"></div>
+
+
+    <!--BARRE TOP BANNER-->
+    <div class="banner">
+      <div class="banner__content">
+        <div class="banner__text">
+          <strong>Projet scolaire dans le cadre du cours : Projet Web - Site original : <a href="https://craquebitume.org/">https://craquebitume.org/</a></strong>
+        </div>
+        <button class="banner__close" type="button">
+          <span class="material-icons">
+            close
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg justify-content-end align-items-center fixed-top py-0">
+      <div class="container-fluid justify-content-space-between align-items-center max-width">
+        <a class="navbar-brand " href="index.html">
+          <img src="./sources/logo.png" class="logo">
+        </a>
+        <button class="navbar-toggler menu hamburger_menu" type="button" width="20%" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="./index.html">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="./2nouvelles.html">Nouvelles</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="./3services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="./4equipe.html">Équipes</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="./5histoire.html">Histoire</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="./6propos.html">À propos</a></li>
+          </ul>
+          <div class="donnation d-flex justify-content-center">
+            <a href="https://craquebitume.org/products/faites-un-don-a-craque-bitume" type="button" id="btn-don" class="d-flex justify-content-end btn btn-outline-warning btn-lg ml-lg-2 mt-2 mt-lg-0">Donation</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
 	<nav>
 		<?php 
 			// Affiche un menu si dans le tableau de bord un menu a été défini dans cet emplacement
 			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+			
+
 		?>
 	</nav>
 
