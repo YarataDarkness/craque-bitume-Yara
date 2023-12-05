@@ -1,6 +1,6 @@
 <?php 
 /**
- * 	Template Name:Nouvelle
+ * 	Template Name: Nouvelle
  * Template Post Type: nouvelle
  * 	Identique à page, mais avec une barre latérale
  */
