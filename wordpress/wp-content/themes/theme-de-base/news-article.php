@@ -25,7 +25,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
               <p class="nouvelle__date"> 01.12.2023</p>
             </div>
              <div class="nouvelle-individuel__hero-middle">
-               <p class="nouvelle-individuel__title">Nouvelle</br> Formation</p>
+               <p class="nouvelle-individuel__title"><?php the_title() ?></br> <?php the_title() ?></p>
             </div>
             <div class="nouvelle-individuel__hero-bottom">
               <p class="nouvelle__formation">Formation</p>
@@ -38,22 +38,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
           </div>
           <div class="nouvelles-individuel__info">
             <div class="nouvelle-individuel__info-title">
-              <h2>Groupe de discussion:</br> comment dépasser </br> son éco-anxiété ? </h2>
-              <p class="nouvelle-individuel__info-description">Cette formation est un atelier expérientiel où les participant·e·s sont invité·e·s à se questionner sur la notion d’écoanxiété et sur les moyens de remédier aux causes de ce ressenti légitime.
-        L'objectif est d'aider les personnes à s’approprier la notion d’écoanxiété sous l’angle du travail social et d’expérimenter un outil permettant de clarifier ses ressentis, ses besoins et ses actions face à la destruction de la nature. </br>
-        
-        L’animateur commencera par démêler avec les participants différentes notions clefs (+/- 15 min), puis il présentera un outil qui constituera le cœur de l’atelier (+/-1h15).</br>
-        
-        1. Question de départ</br>
-        2. Présentation</br>
-        3. Distinction entre la psychologie et le travail social</br>
-        4. Exploration de la notion d’écoanxiété</br>
-        5. Présentation et expérimentation d’un outil favorisant la praxis face à la  </br>
-             catastrophesocioécologique en cours.</br>
-        6. Retour sur l’atelier : commentaires, questions</br>
-        7. Mot de la fin</br>
-        
-        Cette formation est offerte par le travailleur social et écothérapeute Justin Sirois Marcil.</p>
+              <h2><?php the_field("titre_de_nouvelle") ?></h2>
+              <p class="nouvelle-individuel__info-description"><?php the_field("description_de_la_nouvelle") ?></p>
             </div>
             <div class="nouvelle-individuel__side-info">
               <div class="nouvelles-individuel__top-card">
@@ -62,7 +48,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                     Heure
                   </h3>
                   <p class="nouvelles-individuel__info-card-detail">
-                    19h-20H30
+                  <?php the_field("heure") ?>
                   </p>
                 </div>
                 <div class="nouvelle-individuel__info-card-right">
@@ -78,7 +64,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                     Lieu
                   </h3>
                   <p class="nouvelles-individuel__info-card-detail">
-                    Carefour Cardijn,</br> 435 Rue Du Roi
+                  <?php the_field("adresse_de_lieu_de_la_nouvelle") ?>
                   </p>
                 </div>
                 <div class="nouvelle-individuel__info-card-right">
@@ -94,7 +80,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                     Formatrice
                   </h3>
                   <p class="nouvelles-individuel__info-card-detail">
-                    Justin Sirois-Marcil
+                  <?php the_field("nom_du_formateur") ?>
                   </p>
                 </div>
                 <div class="nouvelle-individuel__info-card-right">
@@ -108,8 +94,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
             </div>
           <div class="nouvelle-individuel__prix">
             <div class="nouvelles-individuel__prix-left">         
-                <h3 class="prix-left__row-one">Groupe de discussion: comment dépasser son éco-anxiété?</h3>
-                <p class="prix-left__row-two">25.00$</p>
+                <h3 class="prix-left__row-one"><?php the_field("grande_description_de_la_nouvelle") ?></h3>
+                <p class="prix-left__row-two"><?php the_field("prix_de_la_formation") ?></p>
                 <div class="prix-left__row-three">
                   <div class="nouvelle-individuel__qte">
                     <p class="qte">Nombre de participants:</p>
