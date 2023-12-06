@@ -25,7 +25,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
               <p class="nouvelle__date"> 01.12.2023</p>
             </div>
              <div class="nouvelle-individuel__hero-middle">
-               <p class="nouvelle-individuel__title"><?php the_title() ?></br> <?php the_title() ?></p>
+               <p class="nouvelle-individuel__title"><?php the_title() ?></br></p>
             </div>
             <div class="nouvelle-individuel__hero-bottom">
               <p class="nouvelle__formation">Formation</p>
