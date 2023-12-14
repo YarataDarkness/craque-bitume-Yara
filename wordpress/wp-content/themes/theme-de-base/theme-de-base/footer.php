@@ -7,17 +7,17 @@
 </main>
 
 <footer>
-	<p>Développement web - Collège Montmorency - 2023</p>
+	
 	<section class="section__footer container-fluid d-flex flex-column">
 
         <div class="row flex-xl-row colonne--haut d-flex justify-content-evenly align-items-start">
-
+<p>Développement web - Collège Montmorency - 2023</p>
           
 
           <div class="row col-12 col-sm-11 col-md-9 col-lg-9 col-xl-8 d-flex justify-content-center align-content-center align-items-centers text-center flex-wrap">
 
             <div class="footer-nav col-12 col-md-4 col-lg-3 col-xl-1 mb-2 mt-5 d-flex flex-column align-items-center">
-              <a href="index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"><img class="footer__logo " src="./sources/logo.png" alt="Logo"></a>
+              <a href="index.html" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"></a>
             </div>
 
             <div class="footer-nav col-12 col-md-4 col-lg-4 col-xl-2 mb-2 mt-5 d-flex flex-column align-items-center align-content-start">
@@ -71,18 +71,18 @@
 
         <div class="row">
           <div class="d-flex flex-row flex-wrap mb-6 sponsor-colonne">
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.capucin.org/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/capucin.png" alt="Capucin"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://clj.cssc.gouv.qc.ca/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/centre_louis-jolliet.png" alt="centre_louis-jolliet"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/cisss-et-ciusss"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/centre_uni_quebec.png" alt="centre_uni_quebec"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://collectivitezenquebec.org/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/collectivite_zen_quebec.png" alt="collectivite_zen_quebec"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.desjardins.com/votre-caisse/index.jsp?transit=81520366" ><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/desjardins.png" alt="Desjardins"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://cdcbeauport.ca/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/dev_comunautaire_beauport.png" alt="dev_comunautaire_beauport"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.canada.ca/fr/emploi-developpement-social.html"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/dev_social_canada.png" alt="dev_social_canada"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.inspq.qc.ca/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/insp_qc.png" alt="insp_qc"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.littoralcitoyen.org/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/litoral_citoyen.png" alt="litoral_citoyen"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.omhq.qc.ca/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/omhg.png" alt="omhg"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="http://repac.org/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/repac-03-12.png" alt="repac-03-12"></a>
-            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.saintsuave.com/"><img class="logo sponsor" src="./sources/medias/footer/logo_partenaire_jaune/saint-suave.png" alt="saint-suave"></a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.capucin.org/">Cacpucin</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://clj.cssc.gouv.qc.ca/">Centre Louis-Jolliet</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.quebec.ca/sante/systeme-et-services-de-sante/organisation-des-services/cisss-et-ciusss">Centre Uni Québec</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://collectivitezenquebec.org/">Collectivite Zen Québec</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.desjardins.com/votre-caisse/index.jsp?transit=81520366" >Desjardins</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://cdcbeauport.ca/">Dev Communautaire Beauport</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.canada.ca/fr/emploi-developpement-social.html">Dev Social Canada</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.inspq.qc.ca/">Inspq Qc</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.littoralcitoyen.org/">Littoral citoyen</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.omhq.qc.ca/">omhq</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="http://repac.org/">REPAC</a>
+            <a class="d-flex align-items-center justify-content-center col-3 col-lg-1" href="https://www.saintsuave.com/">Saint-Suave</a>
           </div>
         </div>
         <div class="copyright d-flex justify-content-center align-content-center text-center mt-2">

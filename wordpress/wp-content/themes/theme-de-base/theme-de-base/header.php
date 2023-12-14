@@ -1,6 +1,7 @@
 <?php
 	/*-----------------------------------------------------------------------------------*/
 	/* Affiche l'entête (Header) sur toutes vos pages
+	 * Template Name: header
 	/*-----------------------------------------------------------------------------------*/
 ?>
 <!DOCTYPE html>
@@ -69,19 +70,19 @@
     <nav class="navbar navbar-dark navbar-expand-lg justify-content-end align-items-center fixed-top py-0">
       <div class="container-fluid justify-content-space-between align-items-center max-width">
         <a class="navbar-brand " href="index.html">
-          <img src="./sources/logo.png" class="logo">
+          
         </a>
         <button class="navbar-toggler menu hamburger_menu" type="button" width="20%" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="./index.html">Accueil</a></li>
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="./2nouvelles.html">Nouvelles</a></li>
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="./3services.html">Services</a></li>
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="./4equipe.html">Équipes</a></li>
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="./5histoire.html">Histoire</a></li>
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="./6propos.html">À propos</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="https://yara.tim-momo.com/wordpress/index.php/accueil/">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="https://yara.tim-momo.com/wordpress/index.php/nouvelles/">Nouvelles</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="https://yara.tim-momo.com/wordpress/index.php/services/">Services</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="https://yara.tim-momo.com/wordpress/index.php/equipe/">Équipes</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="https://yara.tim-momo.com/wordpress/index.php/histoire/">Histoire</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="https://yara.tim-momo.com/wordpress/index.php/a-propos/">À propos</a></li>
           </ul>
           <div class="donnation d-flex justify-content-center">
             <a href="https://craquebitume.org/products/faites-un-don-a-craque-bitume" type="button" id="btn-don" class="d-flex justify-content-end btn btn-outline-warning btn-lg ml-lg-2 mt-2 mt-lg-0">Donation</a>

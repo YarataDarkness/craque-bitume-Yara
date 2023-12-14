@@ -15,10 +15,11 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
 			<h2>
 				<?php the_title(); // Titre de la page ?>
+				
 			</h2>
 		<?php endif; ?>
 		
-		<?php the_content(); // Contenu principal de la page ?>
+		<?php the_content(); get_template_part( 'home' ); // Contenu principal de la page ?>
 	</article>
 <?php endwhile; // Fermeture de la boucle
 

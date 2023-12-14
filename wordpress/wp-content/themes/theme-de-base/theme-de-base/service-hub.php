@@ -58,7 +58,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                   </ul>  
                 </p>-->
 
-                <a type="submit" href="#" class="service__btn btn btn-primary">S'inscrire</a>
+                <a type="submit" href="https://yara.tim-momo.com/wordpress/index.php/service/nos-services-2/" class="service__btn btn btn-primary">S'inscrire</a>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                   </ul>  
                 </p>--->
 
-                <a type="submit" href="#" class="service__btn btn btn-primary">S'inscrire</a>
+                <a type="submit" href="https://yara.tim-momo.com/wordpress/index.php/service/compostage-communautaire/" class="service__btn btn btn-primary">S'inscrire</a>
 
               </div>
             </div>

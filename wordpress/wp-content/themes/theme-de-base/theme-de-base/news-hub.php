@@ -29,6 +29,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
             vous entreprenez un acte révolutionnaire... <br>
         </div>
     </div>
+				
         <!--section contennant les cartes de nouvelles-->
         <div class="nouvelles__filter-bar">
           <select class="custom-select filter-dropdown">
@@ -39,17 +40,17 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         </div>
 
         <div class="nouvelle__card-list">
-          <a href="2-5nouvelles.html" class="nouvelle_link">
+          <a href="https://yara.tim-momo.com/wordpress/index.php/nouvelle/groupe-de-cuisine-vegetalienne/" class="nouvelle_link">
               <div class="nouvelle_card un">
               <div class="top-row">
-                  <p class="nouvelle-top-title">Nouvelles</p>
-                <p class="date">01.12.2023</p>
+                  <p class="nouvelle-top-title"><?php the_field("titre_de_nouvelle") ?></p>
+                <p class="date"><?php the_field("datedenouvelle") ?></p>
               </div>
               <div class="middle-up-row">
-                <h2>Groupe de discussion: comment dépasser son éco-anxiété ? </h2>
+                <h2><?php the_field("grande_description_de_la_nouvelle") ?></h2>
               </div>
               <div class="middle-down-row">
-                    <p class="nouvelle__card-description">Cette formation est un atelier expérientiel où les participant·e·s sont invité·e·s à se questionner sur la notion d’écoanxiété et sur les moyens de remédier aux causes de ce ressenti légitime.</p>
+                    <p class="nouvelle__card-description"><?php the_field("description_de_la_nouvelle") ?></p>
               </div>
               <div class="bottom-row">
                 <p class="formation">Formation</p>
@@ -59,17 +60,17 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
               </div>
             </div>
           </a>
-          <a href="2-5nouvelles.html" class="nouvelle_link">
+          <a href="https://yara.tim-momo.com/wordpress/index.php/nouvelle/nouvelles-2/" class="nouvelle_link">
             <div class="nouvelle_card deux">
           <div class="top-row">
-              <p class="nouvelle-top-title">Nouvelles</p>
-            <p class="date">01.12.2023</p>
+              <p class="nouvelle-top-title"><?php the_field("titre_de_nouvelle_2") ?></p>
+            <p class="date"><?php the_field("date_de_nouvelle_2") ?></p>
           </div>
           <div class="middle-up-row">
-            <h2>Groupe de discussion: comment dépasser son éco-anxiété ? </h2>
+            <h2><?php the_field("grande_description_de_la_nouvelle_2") ?></h2>
           </div>
           <div class="middle-down-row">
-                <p class="nouvelle__card-description">Cette formation est un atelier expérientiel où les participant·e·s sont invité·e·s à se questionner sur la notion d’écoanxiété et sur les moyens de remédier aux causes de ce ressenti légitime.</p>
+                <p class="nouvelle__card-description"><?php the_field("description_de_la_nouvelle_2") ?></p>
           </div>
           <div class="bottom-row">
             <p class="formation">Formation</p>
